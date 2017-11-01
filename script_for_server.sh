@@ -27,6 +27,6 @@ setsebool -P httpd_tty_comm 0
 setsebool -P httpd_unified 0
 setsebool -P httpd_enable_cgi 0
 setsebool -P httpd_ssi_exec 0
-setsebool -P allow_saslauthd_read_shadow 0
+setsebool -P saslauthd_read_shadow 0
 
 
